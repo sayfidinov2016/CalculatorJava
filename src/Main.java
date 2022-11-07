@@ -88,7 +88,7 @@ public class Main {
                 }
 
                 if(romam){
-                    checkMoreLess.zero(s);
+                    checkMoreLess.zero(s);// проверка на римские числа
                     input = "" + convert.arabicToRoman(s);
                 } else {
                     input = "" + s;
