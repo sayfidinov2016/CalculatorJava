@@ -106,7 +106,7 @@ public class Main {
 
     static class CheckMoreLess {
         public static int check(int i) {
-            if (i < 0 || i > 10) {
+            if (i < 1 || i > 10) {
                 try {
                     throw new Exception("Только числа 1 до 10!");
                 } catch (Exception e) {
